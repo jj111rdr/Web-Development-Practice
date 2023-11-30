@@ -28,9 +28,54 @@
       video {
         width: 400px;
       }
+      ul {
+        list-style-type: circle;
+      }
+      table,
+      td,
+      th {
+        border: 1px solid grey;
+        border-collapse: collapse;
+        padding: 5px;
+      }
+      tfoot {
+        text-align: left;
+      }
     </style>
   </head>
   <body>
+    <ul>
+      <li><a href="company/about.html">About</a></li>
+      <li>Contact</li>
+      <li>Offer</li>
+    </ul>
+    <table>
+      <thead>
+        <tr>
+          <th colspan="2">Expenses</th>
+        </tr>
+        <tr>
+          <th>Category</th>
+          <th>Amount</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Shirt</td>
+          <td>$100</td>
+        </tr>
+        <tr>
+          <td>Poncho</td>
+          <td>$200</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th>Total</th>
+          <th>$300</th>
+        </tr>
+      </tfoot>
+    </table>
     <h1>Hello, World!</h1>
     <img src="Images/Laptop.jfif" alt="Image not available" />
     <br /><br />
@@ -43,7 +88,6 @@
       fugiat. Perspiciatis, expedita ad culpa inventore debitis voluptatum neque
       tenetur!
     </p>
-    <a href="company/about.html">About me</a>
     <br />
     <a href="#section_css">css</a>
     <br />
