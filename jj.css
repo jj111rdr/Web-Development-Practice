@@ -1,0 +1,7 @@
+#products > p {
+  color: olivedrab;
+  font-size: 25px;
+}
+a[target="_blank"][href$=".com"] {
+  color: brown;
+}
