@@ -1,7 +1,14 @@
 #products > p {
   color: olivedrab;
   font-size: 25px;
-}
-a[target="_blank"][href$=".com"] {
+} /*=>Relational Selector */
+a[target="_blank"][href*=".com"] {
   color: brown;
+}
+#para {
+  background-color: aquamarine;
+  width: 30%;
+}
+.highlight {
+  background-color: bisque;
 }
