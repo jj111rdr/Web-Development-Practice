@@ -23,11 +23,20 @@ let print = () => {
 let removeChars = (str) =>{
     return str.substring(1, str.length - 1);
 }
+
+let doubleArrayElements = (array) => {
+    let doubledArray = [];
+    doubledArray = array.map((element) => element * 2);
+    return doubledArray;
+}
+
+
 print();
 let array = [2,-5,6,0,3,-1];
 let smallestNumber = findSmallest(array);
 console.log("The smallest number in the array is: " + smallestNumber);
 console.log("The string after removing the first and last character is: " + 
     removeChars("This is a test string"));
+console.log("The array with doubled elements is: " + doubleArrayElements(array));
 
 console.log("The sum of numbers from 0 to 10 is: " + sumOfNumbers(10));
